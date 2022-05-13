@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador Alura</title>
+</head>
+<body>
+    <header>
+        <section class="hello">
+            <figure>
+                <img src="img/logoalura.png" alt="logo da alura com a letra a">
+            </figure>
+            <h1>Olá! Vamos criptografar ou descriptografar?</h1>
+        </section>
+    </header>
+
+    <main class="main">
+        <section class="codificador">
+            <textarea class="digiteaqui" cols="50" rows="10" placeholder="Digite aqui o texto que você deseja criptografar ou descriptografar."></textarea>
+        
+            <div class="buttons">              
+                <button class="criptografar" onclick="btnCriptografar()">Criptografar</button>
+                <button class="descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+                </div>
+        </section>
+        
+        <section class="mensagem">
+            <textarea class="respostaaqui" cols="20" rows="10"></textarea>
+            <button class="copy-button" onclick="btnCopiar()">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Desenvolvido pela aluna Adriana Gutierrez 05/2022</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

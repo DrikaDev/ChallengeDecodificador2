@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #b4d0f3;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+}
+
+.hello figure img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+.hello h1{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 2px 2px whitesmoke;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.codificador{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.digiteaqui{
+    width: 680px;
+    height: 300px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 3px solid #0A3871;
+    border-radius: 20px;
+    line-height: 40px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.criptografar{
+    border-radius: 20px;
+    border: 3px solid #0A3871;
+    color: #0A3871;
+    width: 180px;
+    height: 50px;
+    font-size: 1.3rem;
+    box-shadow: 5px 5px 20px 5px #0A3871;
+}
+
+.criptografar:hover{
+    background: #0A3871;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.descriptografar{
+    border-radius: 20px;
+    border: 3px solid #0A3871;
+    color: #0A3871;
+    width: 180px;
+    height: 50px;
+    font-size: 1.3rem;
+    box-shadow: 5px 5px 20px 5px #0A3871;
+}
+
+.descriptografar:hover{
+    background: #0A3871;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.mensagem textarea{
+    background-image: url("img/menino.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    position: relative;
+    border: 3px solid #0A3871;
+    border-radius: 20px;
+    color: #0A3871;
+    width: 400px;
+    height: 300px;
+}
+
+.respostaaqui{
+    width: 680px;
+    height: 300px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.copy-button{
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 3px solid #0A3871;
+    color: #0A3871;
+    width: 180px;
+    height: 50px;
+    font-size: 1.3rem;
+    box-shadow: 5px 5px 20px 5px #0A3871;
+}
+
+.copy-button:hover{
+    background: #0A3871;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 30px;
+    margin-left: 410px;
+    text-shadow: 3px 8px 3px whitesmoke;
+}
+
